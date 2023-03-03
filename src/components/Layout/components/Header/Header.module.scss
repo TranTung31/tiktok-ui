@@ -98,3 +98,25 @@
     padding: 4px 8px;
     cursor: pointer;
 }
+
+// Actions
+.action {
+    display: flex;
+    align-items: center;
+}
+
+.action-btn {
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.action-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 12px;
+}
