@@ -9,11 +9,11 @@ import Search from '~/pages/Search';
 
 // Routes không cần đăng nhập vẫn xem được
 const publicRoutes = [
-    { path: '/', componets: Home },
-    { path: '/following', componets: Following },
-    { path: '/profile', componets: Profile },
-    { path: '/upload', componets: Upload, layout: HeaderOnly },
-    { path: '/search', componets: Search, layout: null },
+    { path: '/', component: Home },
+    { path: '/following', component: Following },
+    { path: '/@/:nickname', component: Profile },
+    { path: '/upload', component: Upload, layout: HeaderOnly },
+    { path: '/search', component: Search, layout: null },
 ];
 
 // Routes cần đăng nhập mới xem được
